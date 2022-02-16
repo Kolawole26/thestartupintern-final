@@ -39,7 +39,7 @@ function Protein() {
                         </div>
                     </div>
                 </div>
-                <p className=" lg:block hidden stk lg:tracking-s-23 tracking-widest font-SF-Bold lg:text-123 text-white rotate-m90 absolute lg:left-m280 lg:top-44">PROTEIN</p>
+                <p className=" lg:block hidden stk lg:tracking-s-23 tracking-widest font-SF-Bold lg:text-123 text-white rotate-m90 absolute lg:left-m280 lg:top-56">PROTEIN</p>
             </div>
         </div>
     </>

@@ -61,7 +61,7 @@ function Video() {
             </div>
             
         </div>
-        <div className=" lg:pt-580 pb-4 text-center">
+        <div className=" lg:pt-580 pb-10 text-center lg:pb-20">
             <div className="md:px-40 px-7 max-w-821 mx-auto">
                 <div className=''>
                     <h1 className=' stk font-SF-Bold md:text-80 text-33 text-white'>VIDEOS</h1>
@@ -73,27 +73,37 @@ function Video() {
                 </p>
             </div>
             <div className=" lg:flex md:px-40 px-7 py-3 ">
-                
-                    <div className="  inset-0  relative overflow-hidden lg:mr-11 lg:mb-0 mb-6">
+                    <div className="relative">
+                    <div className="  inset-0  relative overflow-hidden lg:mr-11 lg:mb-0 mb-12">
                         <Image src="/assets/gym-lady1.png" width={592} height={363}/>
                         
-                        <div className=" absolute bg-menu-bg inset-0 opacity-50 "></div>
-                        <div className=" absolute lg:left-60 lg:top-32 top-11 md:top-20 md:left-54 left-28 w-16 h-16 md:w-104 md:h-104 mx-auto">
+                        <div className=" absolute bg-menu-bg inset-0 opacity-50 rounded-2xl"></div>
+                        <div className=" absolute lg:left-60 lg:top-32 top-12 md:top-20 md:left-54 left-32 w-16 h-16 md:w-104 md:h-104 mx-auto">
                             <Image src="/assets/play-2.png" width={104} height={104}/>
                         </div>
+                        
+                    </div>
+                        <div className=" bg-white absolute lg:bottom-m40 bottom-m40 md:left-16 left-4 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl">
+                            <p className=" font-SF-Bold md:text-sm text-xs text-menu-bg">EXERCISE NAME | S-2, E-4</p>
+                            <h4 className=" font-Futura md:text-xl text-base text-black">Lorem Ipsum Dolor Sit Amet</h4>
+                        </div >
                     </div>
                     
-                    
+                <div className="relative">
                     <div className=" inset-0  relative overflow-hidden ">
                         <Image src="/assets/gym-lady2.png" width={592} height={363}/>
-                        <div className=" absolute bg-menu-bg inset-0 opacity-50 "></div>
+                        <div className=" absolute bg-menu-bg inset-0 opacity-50 rounded-2xl"></div>
 
-                        <div className=" absolute lg:left-60 lg:top-32 top-11 md:top-20 md:left-54 left-28 w-16 h-16 md:w-104 md:h-104 mx-auto">
+                        <div className=" absolute lg:left-60 lg:top-32 top-12 md:top-20 md:left-54 left-32 w-16 h-16 md:w-104 md:h-104 mx-auto">
                             <Image src="/assets/play-2.png" width={104} height={104}/>
                         </div>
                     
                     </div>
-
+                        <div className=" bg-white absolute lg:bottom-m40 bottom-m40 md:left-16 left-4 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl">
+                            <p className=" font-SF-Bold md:text-sm text-xs text-menu-bg">EXERCISE NAME | S-2, E-4</p>
+                            <h4 className=" font-Futura md:text-xl text-base text-black">Lorem Ipsum Dolor Sit Amet</h4>
+                        </div >
+                </div>
                 
             </div>
         </div>
