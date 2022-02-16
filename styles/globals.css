@@ -1,16 +1,77 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    @font-face {
+        font-family: 'Futura';
+        src: url('../public/fonts/Futura Bold.woff2') format('woff2');
+        font-weight:900;
+        font-display:swap;
+        font-style: bold;
+    }
+    @font-face {
+        font-family: 'Futura-Medium';
+        src: url('../public/fonts/Futura-Medium.woff2') format('woff2');
+        font-weight:500;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'Futura-Book';
+        src: url('../public/fonts/Futura-Book.woff2') format('woff2');
+        font-weight:400;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'SF-Bold';
+        src: url('../public/fonts/SF-Pro-Display-Bold.woff2') format('woff2');
+        font-weight:700;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'SF-Light';
+        src: url('../public/fonts/SF-Pro-Display-Light.woff2') format('woff2');
+        font-weight:300;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'SF-Medium';
+        src: url('../public/fonts/SF-Pro-Display-Medium.woff2') format('woff2');
+        font-weight:500;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'SF-Regular';
+        src: url('../public/fonts/SF-Pro-Display-Regular.woff2') format('woff2');
+        font-weight:400;
+        font-display:swap;
+        
+    }
+    @font-face {
+        font-family: 'SF-Semibold';
+        src: url('../public/fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
+        font-weight:600;
+        font-display:swap;
+        
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
+
+@layer components {
+  .stk {
+    -webkit-text-stroke: 1px #5E5E5E;
+  }
+
+  .active {
+    color: red;
+  }
+  
 }
