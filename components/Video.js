@@ -4,9 +4,9 @@ function Video() {
   return (
     <>
         <div className="relative">
-            <div className=' bg-nav-black md:pt-14 pt-7 md:pb-60 pb-32 px-7 md:px-36 '>
-                <div className="lg:flex justify-items-center ">
-                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-6 ">
+            <div className=' bg-nav-black md:pt-14 pt-7 lg:pb-60 pb-16 px-7 md:px-36 '>
+                <div className="lg:flex-row justify-items-center  flex flex-col items-center ">
+                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-9 ">
                         <div className=" stroke-2 stroke-white mr-1">
                             <Image src="/assets/bicep.png" width={69} height={67} className="stroke-white" />
                         </div>
@@ -15,7 +15,7 @@ function Video() {
                             <p className=" font-SF-Regular md:text-lg text-xs text-white">LOREM IPSUM</p>
                         </div>
                     </div>
-                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-6 ">
+                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-9 ">
                         <div className=" stroke-2 stroke-white mr-1">
                             <Image src="/assets/stationary-bike.png" width={69} height={67} className="stroke-white" />
                         </div>
@@ -24,7 +24,7 @@ function Video() {
                             <p className=" font-SF-Regular md:text-lg text-xs text-white">LOREM IPSUM</p>
                         </div>
                     </div>
-                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-6 ">
+                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-9 ">
                         <div className=" stroke-2 stroke-white mr-1">
                             <Image src="/assets/medicine.png" width={69} height={67} className="stroke-white" />
                         </div>
@@ -33,7 +33,7 @@ function Video() {
                             <p className=" font-SF-Regular md:text-lg text-xs text-white">LOREM IPSUM</p>
                         </div>
                     </div>
-                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-6 ">
+                    <div className="flex items-center lg:mr-20 mx-12 lg:mx-0 lg:mb-0 mb-9 ">
                         <div className=" stroke-2 stroke-white mr-1">
                             <Image src="/assets/weight-lifter.png" width={110} height={67} className="stroke-white" />
                         </div>
@@ -52,7 +52,7 @@ function Video() {
                     <div className=' mx-7 my-7  lg:mx-0 lg:my-0 max-w-1200 lg:absolute lg:top-m120 right-0 bg-black '>
                         <Image src="/assets/press-up.png" width={1550} height={665}/>
                     </div>
-                    <div className=" absolute lg:right-36 lg:top-11 top-8 md:top-16 md:left-72 left-32 w-14 h-14 md:w-172 md:h-172 mx-auto">
+                    <div className=" absolute lg:right-36 lg:top-11 top-8 md:top-16 md:left-72 left-40 w-14 h-14 md:w-172 md:h-172 mx-auto">
                         <Image src="/assets/play.png" width={172} height={172}/>
                     </div>
                     <p className=" lg:block hidden stk lg:tracking-s-23 tracking-widest font-SF-Bold lg:text-123 text-white rotate-m90 absolute lg:left-m170 lg:top-36">VIDEO</p>
@@ -61,7 +61,7 @@ function Video() {
             </div>
             
         </div>
-        <div className=" lg:pt-580 pb-10 text-center lg:pb-20">
+        <div className=" lg:pt-580 pb-16 text-center lg:pb-20">
             <div className="md:px-40 px-7 max-w-821 mx-auto">
                 <div className=''>
                     <h1 className=' stk font-SF-Bold md:text-80 text-33 text-white'>VIDEOS</h1>
@@ -72,9 +72,9 @@ function Video() {
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
                 </p>
             </div>
-            <div className=" lg:flex md:px-40 px-7 py-3 ">
-                    <div className="relative">
-                    <div className="  inset-0  relative overflow-hidden lg:mr-11 lg:mb-0 mb-12">
+            <div className=" lg:flex md:px-40 px-7 py-3  ">
+                    <div className="relative mx-auto">
+                    <div className="  inset-0  relative overflow-hidden lg:mr-11 lg:mb-0 mb-16">
                         <Image src="/assets/gym-lady1.png" width={592} height={363}/>
                         
                         <div className=" absolute bg-menu-bg inset-0 opacity-50 rounded-2xl"></div>
@@ -83,13 +83,13 @@ function Video() {
                         </div>
                         
                     </div>
-                        <div className=" bg-white absolute lg:bottom-m40 bottom-m40 md:left-16 left-4 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl">
+                        <div className=" bg-white absolute lg:bottom-m40 bottom-m30 md:left-16 left-10 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl drop-shadow-md">
                             <p className=" font-SF-Bold md:text-sm text-xs text-menu-bg">EXERCISE NAME | S-2, E-4</p>
                             <h4 className=" font-Futura md:text-xl text-base text-black">Lorem Ipsum Dolor Sit Amet</h4>
                         </div >
                     </div>
                     
-                <div className="relative">
+                <div className="relative mx-auto">
                     <div className=" inset-0  relative overflow-hidden ">
                         <Image src="/assets/gym-lady2.png" width={592} height={363}/>
                         <div className=" absolute bg-menu-bg inset-0 opacity-50 rounded-2xl"></div>
@@ -99,7 +99,7 @@ function Video() {
                         </div>
                     
                     </div>
-                        <div className=" bg-white absolute lg:bottom-m40 bottom-m40 md:left-16 left-4 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl">
+                        <div className=" bg-white absolute lg:bottom-m40 bottom-m30 md:left-16 left-10 lg:left-28 md:px-5 px-2 md:py-4 py-2 rounded-t-2xl drop-shadow-md">
                             <p className=" font-SF-Bold md:text-sm text-xs text-menu-bg">EXERCISE NAME | S-2, E-4</p>
                             <h4 className=" font-Futura md:text-xl text-base text-black">Lorem Ipsum Dolor Sit Amet</h4>
                         </div >

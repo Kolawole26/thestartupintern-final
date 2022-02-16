@@ -126,7 +126,7 @@ function Blog() {
                 <div className=' mt-5 lg:mt-0'>
                     <input type="text" placeholder='Name' className=' font-SF-Regular md:text-base text-xs text-t-grey-9 md:py-5 py-3 md:pl-6 pl-3 bg-white border-2 border-border-white-2 w-full md:mb-7 mb-4'/>
                     <input type="text" placeholder='Email' className=' font-SF-Regular md:text-base text-xs text-t-grey-9 md:py-5 py-3 md:pl-6 pl-3 bg-white border-2 border-border-white-2 w-full md:mb-7 mb-4'/>
-                    <button className=' font-SF-Medium md:text-base text-xs bg-nav-black text-white md:py-5 py-3 px-auto w-full'>SUBSCRIBE</button>
+                    <button className=' font-SF-Medium md:text-base text-xs bg-nav-black text-white md:py-5 py-3 px-auto w-full hover:text-menu-bg transition duration-300 ease-in-out'>SUBSCRIBE</button>
                 </div>
             </div>
         </div>
