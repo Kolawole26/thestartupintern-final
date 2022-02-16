@@ -11,10 +11,10 @@ function Protein() {
                         <div className=" relative inline-block md:px-10 py-10 px-9 md:py-10 border-l-5 border-solid border-border-R  before:absolute after:absolute before:border-border-R after:border-border-R before:right-2/4  after:right-2/4 before:left-0 after:left-0 before:h-5 after:h-5 before:border-r-5 after:border-r-5 before:top-0 before:border-t-5 after:bottom-0 after:border-b-5">
                             <div className=' flex items-center '>
                                 <div className=' flex-1'>
-                                    <Image src="/assets/med.png" width={200} height={200} />
+                                    <Image src="/assets/Med.png" width={200} height={200} />
                                 </div>
                                 <div className='flex-1 relative lg:right-48 right-20 '>
-                                    <Image src="/assets/med.png" width={739} height={739} />
+                                    <Image src="/assets/Med.png" width={739} height={739} />
                                 </div>
                                 
                             </div>
