@@ -10,12 +10,11 @@ class MyDocument extends Document {
           href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
         />
 
-        <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+      
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         </body>
       </Html>
     )
