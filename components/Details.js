@@ -1,7 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
 
 function Details() {
+
   return (
     <>
         <div className=' bg-nav-black md:pt-28 md:pb-52 py-14'>
@@ -16,11 +21,11 @@ function Details() {
                 sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
               </p>
             </div>
-            <div className=' grid md:grid-cols-2 lg:grid-cols-4 gap-5 md:my-10 my-7'>
+            <div className=' lg:hidden grid md:grid-cols-2 lg:grid-cols-4 gap-5 md:my-10 my-7'>
               <div className=' bg-border-black py-5 px-4'>
                 <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>TOPS</h3>
                 <div className=' md:mb-6 mb-4'>
-                  <Image src="/assets/tops.svg" width={91} height={99}/>
+                  <Image src="/assets/tops.svg" width={91} height={99} alt="tops"/>
                 </div>
                 <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
@@ -30,7 +35,7 @@ function Details() {
               <div className=' bg-border-black py-5 px-4'>
                 <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>BOTTOMS</h3>
                 <div className=' md:mb-6 mb-4'>
-                  <Image src="/assets/bottoms.svg" width={56} height={99}/>
+                  <Image src="/assets/bottoms.svg" width={56} height={99} alt="bottoms"/>
                 </div>
                 <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
@@ -40,7 +45,7 @@ function Details() {
               <div className=' bg-border-black py-5 px-4'>
                 <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>HOODIES AND JACKETS</h3>
                 <div className=' md:mb-6 mb-4'>
-                  <Image src="/assets/hoodies.svg" width={85} height={98}/>
+                  <Image src="/assets/hoodies.svg" width={85} height={98} alt="hoodies"/>
                 </div>
                 <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
@@ -50,13 +55,79 @@ function Details() {
               <div className=' bg-border-black  py-5 px-4'>
                 <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>ACCESSORIES</h3>
                 <div className=' md:mb-6 mb-4'>
-                  <Image src="/assets/accessories.svg" width={100} height={98}/>
+                  <Image src="/assets/accessories.svg" width={100} height={98} alt="accessories"/>
                 </div>
                 <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
                 </p>
               </div>
             </div>
+
+            <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='hidden lg:block md:my-10 my-7'>
+          <div className='h-96 w-50 bg-nav-black  flex justify-center items-center'>
+          <div className=' grid md:grid-cols-2 lg:grid-cols-4 gap-5 '>
+              <div className=' bg-border-black py-5 px-4'>
+                <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>TOPS</h3>
+                <div className=' md:mb-6 mb-4'>
+                  <Image src="/assets/tops.svg" width={91} height={99} alt="tops"/>
+                </div>
+                <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                </p>
+              </div>
+              
+              <div className=' bg-border-black py-5 px-4'>
+                <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>BOTTOMS</h3>
+                <div className=' md:mb-6 mb-4'>
+                  <Image src="/assets/bottoms.svg" width={56} height={99} alt="bottoms"/>
+                </div>
+                <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                </p>
+              </div>
+              
+              <div className=' bg-border-black py-5 px-4'>
+                <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>HOODIES AND JACKETS</h3>
+                <div className=' md:mb-6 mb-4'>
+                  <Image src="/assets/hoodies.svg" width={85} height={98} alt="hoodies"/>
+                </div>
+                <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                </p>
+              </div>
+              
+              <div className=' bg-border-black  py-5 px-4'>
+                <h3 className=' font-Futura md:text-xl text-base text-white md:mb-5 mb-3'>ACCESSORIES</h3>
+                <div className=' md:mb-6 mb-4'>
+                  <Image src="/assets/accessories.svg" width={100} height={98} alt="accessories"/>
+                </div>
+                <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-5'>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+                </p>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        
+      </Swiper>
+
+
+      
+     
+      
+    
+
           </div>
         </div>
 
@@ -64,7 +135,7 @@ function Details() {
           <div className=' relative lg:pt-44'>
             <div className='lg:flex max-w-1600 lg:max-h-264 lg:absolute lg:bottom-0 right-0 '>
               <div className=' mx-7 my-7  lg:mx-0 lg:my-0  '>
-                <Image src="/assets/lady1.png" width={428} height={264}/>
+                <Image src="/assets/lady1.png" width={428} height={264} alt="lady1"/>
               </div>
               <div className=' bg-menu-bg py-6 md:px-16 px-7 md:flex-1 '>
                 <h1 className=' font-Futura md:text-59 text-2xl text-white md:pt-2 md:mb-4'>TITLE HERE</h1>
@@ -84,32 +155,42 @@ function Details() {
                   <h3 className=' font-SF-Bold md:text-xl text-base text-black md:mb-1'>JEREMY GEORGE</h3>
                   <div className=' flex items-center md:mb-11 mb-10'>
                     <div className=' md:mr-2 mr-1'>
-                      <Image src="/assets/star2.png" width={13} height={13}/>
+                      <Image src="/assets/star2.png" width={13} height={13} alt="star"/>
                     </div>
                     <div className=' md:mr-2 mr-1'>
-                      <Image src="/assets/star2.png" width={13} height={13}/>
+                      <Image src="/assets/star2.png" width={13} height={13} alt="star"/>
                     </div>
                     <div className=' md:mr-2 mr-1'>
-                      <Image src="/assets/star2.png" width={13} height={13}/>
+                      <Image src="/assets/star2.png" width={13} height={13} alt="star"/>
                     </div>
                     <div className=' md:mr-2 mr-1'>
-                      <Image src="/assets/star2.png" width={13} height={13}/>
+                      <Image src="/assets/star2.png" width={13} height={13} alt="star"/>
                     </div>
                     <div className=' md:mr-2 mr-1'>
-                      <Image src="/assets/star2.png" width={13} height={13}/>
+                      <Image src="/assets/star2.png" width={13} height={13} alt="star"/>
                     </div>
                   </div>
-                  <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-6 lg:mb-0 mb-10 max-w-lg'>
+                  <p className=' font-Futura-Medium md:text-lg text-xs text-t-grey-6 lg:mb-3 mb-3 max-w-lg'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
                   dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
                   clita kasd gubergren, no sea takimata.
                   </p>
-                  
+                  <div className=' flex mb-10 lg:mb-0'>
+                    <div className='md:mr-5 mr-3 md:w-2 md:h-3 w-2 h-1'>
+                      <Image src="/assets/icon-arrow-left.png" width={8} height={12} alt="left-arrow"/>
+                    </div>
+                    <div className='md:mr-5 mr-3 md:w-2 md:h-3 w-2 h-1'>
+                    <Image src="/assets/icon-arrow-right.png" width={8} height={12} alt="right-arrow"/>
+                    </div>
+                </div>
                 </div>
                 <div className=' flex-1'>
-                <Image src="/assets/man2.png" width={615} height={631}/>
+                <Image src="/assets/man2.png" width={615} height={631} alt="man2"/>
                 </div>
               </div>
+
+
+
         </div>
     </>
   )

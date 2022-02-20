@@ -8,6 +8,7 @@ import Energy from "../components/Energy";
 import Protein from "../components/Protein";
 import Blog from "../components/Blog";
 
+
 export default function Home() {
   return (
     <>

@@ -15,7 +15,7 @@ function Energy() {
                     </div>
                     <div className='lg:relative lg:bottom-32 mt-7 lg:mt-0'>
                         <div>
-                            <Image src="/assets/med-container.png" width={739} height={739} />
+                            <Image src="/assets/med-container.png" width={739} height={739} alt="med-container"/>
                         </div>
                     </div>
                 </div>

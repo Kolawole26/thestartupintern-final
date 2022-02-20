@@ -3,6 +3,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     extend: {
       backgroundImage: {
@@ -22,6 +23,10 @@ module.exports = {
         'gym-lady1': "url('../public/assets/gym-lady1.png')",
         'blackBG': "url('../public/assets/blackBG.png')",
         'mail': "url('../public/assets/mail.png')",
+        'press-up': "url('../public/assets/press-up.png')",
+        'carousel': "url('../public/assets/carousel.png')",
+        'angle-right-solid': "url('../public/assets/angle-right-solid.svg')",
+        'angle-left-solid': "url('../public/assets/angle-left-solid.svg')",
         
       },
       colors: {
@@ -66,6 +71,7 @@ module.exports = {
         '33': '33px',
         '44': '2.75rem',
         '80': '80px',
+        '96': '6rem',
         '123': '7.688rem',
       },
 
@@ -75,6 +81,7 @@ module.exports = {
       },
       
       spacing: {
+        'm25': '-25px',
         'm30': '-30px',
         'm35': '-35px',
         'm40': '-40px',
@@ -82,20 +89,28 @@ module.exports = {
         'm170': '-170px',
         'm280': '-280px',
         '76': '76px',
+        '85': '85px',
         '104': '6.5rem',
         '172': '10.75rem',
         '363': '363px',
         '420': '420px',
         '420': '420px',
         '500': '500px',
+        '550': '550px',
         '580': '580px',
         '592': '592px',
+        '623': '623px',
+        '660': '660px',
         '750': '750px',
       },
 
       screens: {
         'xs': '375px',
         
+      },
+
+      opacity: {
+        'm1': '-0.2',
       },
 
       maxWidth: {

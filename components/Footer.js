@@ -9,30 +9,30 @@ function Footer() {
                 <div className=' lg:grid lg:grid-cols-4 gap-7 md:grid md:grid-cols-2 items-end'>
                     <div>
                         <div className='md:mb-9 mb-4'>
-                            <Image src="/assets/logo.png" width={198} height={88} />
+                            <Image src="/assets/logo.png" width={198} height={88} alt="logo"/>
                         </div>
                         <div className=' flex md:mb-5 mb-2'>
                             <div className=' md:mr-3 mr-2'>
-                                <Image src="/assets/location-sharp.png" width={12} height={17} />
+                                <Image src="/assets/location-sharp.png" width={12} height={17} alt="location"/>
                             </div>
                             <p className=' font-Futura-Book md:text-base text-xs text-white'>463 Round Table Drive, Norwood, OH, Ohio</p>
                         </div>
                         <div className=' flex md:mb-10 mb-5'>
                             <div className=' md:mr-3 mr-2'>
-                                <Image src="/assets/phone.png" width={15} height={15} />
+                                <Image src="/assets/phone.png" width={15} height={15} alt="phone"/>
                             </div>
                             <p className=' font-Futura-Book md:text-base text-xs text-white'>+123456789</p>
                         </div>
                         
                         <div className=' flex items-center'>
                             <div className=' md:mr-6 mr-3'>
-                                <Image src="/assets/linkedin.png" width={32} height={32} />
+                                <Image src="/assets/linkedin.png" width={32} height={32} alt="linkedin"/>
                             </div>
                             <div className=' md:mr-6 mr-3'>
-                                <Image src="/assets/twitter.png" width={32} height={32} />
+                                <Image src="/assets/twitter.png" width={32} height={32} alt="twitter"/>
                             </div>
                             <div className=' md:mr-6 mr-3'>
-                                <Image src="/assets/facebook.png" width={32} height={32} />
+                                <Image src="/assets/facebook.png" width={32} height={32} alt="facebook"/>
                             </div>
                         </div>
                     </div>
