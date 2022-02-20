@@ -12,10 +12,10 @@ function Details() {
         <div className=' bg-nav-black md:pt-28 md:pb-52 py-14'>
           <div className=' text-center md:px-40 px-7'>
             <div className=' max-w-821 mx-auto'>
-              <div className=''>
-                <h1 className=' stk font-SF-Bold md:text-80 text-33 text-nav-black'>FEATURES</h1>
-                <h2 className=' font-Futura md:text-59 text-2xl text-white  relative bottom-10 md:bottom-76 '>WHY CHOOSE US</h2>
-                <div className=' md:w-48 w-24 h-1 bg-menu-bg border border-solid border-menu-bg relative md:bottom-16 bottom-11 mx-auto'></div>
+              <div className='relative flex justify-center'>
+                <h1 className=' stk font-SF-Bold md:text-96  text-33 text-nav-black'>FEATURES</h1>
+                <h2 className=' font-Futura md:text-59 text-2xl text-white  absolute bottom-2 md:bottom-14 '>WHY CHOOSE US</h2>
+                <div className=' md:w-48 w-24 h-1 bg-menu-bg border border-solid border-menu-bg absolute md:bottom-10 bottom-2'></div>
               </div>
               <p className=' font-Futura-Medium md:text-xl text-sm text-t-grey-5 '>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
                 sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.

@@ -27,6 +27,7 @@ module.exports = {
         'carousel': "url('../public/assets/carousel.png')",
         'angle-right-solid': "url('../public/assets/angle-right-solid.svg')",
         'angle-left-solid': "url('../public/assets/angle-left-solid.svg')",
+        'Group 1': "url('../public/assets/Group 1.png')",
         
       },
       colors: {
